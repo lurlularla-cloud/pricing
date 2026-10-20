@@ -1,0 +1,740 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>라엘 펨케어 제품 2027년 가격 인상 검토</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 단일 컬럼 보고서. 상단 진행 레일(일정) → 번호 섹션(실제 순서) → 각 섹션은 '채울 내용 / 데이터 출처 / 표 틀' 3단 구성 */
+:root{
+  --bg:#fbfcfa; --surface:#ffffff; --fg:#1d2420; --muted:#5d6a63; --line:#dfe5e0;
+  --accent:#3f6b55; --accent-soft:#e7efe9; --todo:#9a6b1f; --todo-soft:#f6eedd;
+  --ready:#2f6a8a; --ready-soft:#e3eef4;
+  --ch0:#3f6b55; --ch1:#c08a3e; --ch2:#8aa3b3; --ch3:#b9748a;
+  --lo:#2b6fd6; --hi:#d9443f; --boxfill:#dcdcd2; --r5:#fdf7f4; --r10:#fbefe9; --r15:#f7dfd5;
+  --f-body:"IBM Plex Sans KR",-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141917; --surface:#1b211e; --fg:#e4ebe6; --muted:#9aa8a0; --line:#2d3631;
+  --accent:#8cc0a4; --accent-soft:#22302a; --todo:#e0b25f; --todo-soft:#33291a;
+  --ready:#86bfdc; --ready-soft:#1c2c35; --ch0:#7fb898; --ch1:#e0ad62; --ch2:#8fa9ba; --ch3:#d48ea4; --lo:#6ea2f0; --hi:#f07a72; --boxfill:#3a423d; --r5:#2a211e; --r10:#33241f; --r15:#452c25; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141917; --surface:#1b211e; --fg:#e4ebe6; --muted:#9aa8a0; --line:#2d3631;
+  --accent:#8cc0a4; --accent-soft:#22302a; --todo:#e0b25f; --todo-soft:#33291a;
+  --ready:#86bfdc; --ready-soft:#1c2c35; --ch0:#7fb898; --ch1:#e0ad62; --ch2:#8fa9ba; --ch3:#d48ea4; --lo:#6ea2f0; --hi:#f07a72; --boxfill:#3a423d; --r5:#2a211e; --r10:#33241f; --r15:#452c25; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.65;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:880px;margin:0 auto;padding-block:40px 80px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{text-wrap:balance;margin:0;line-height:1.3}
+h1{font-size:28px;font-weight:700;letter-spacing:-.01em}
+h2{font-size:20px;font-weight:600}
+h3{font-size:14px;font-weight:600;color:var(--muted)}
+p{margin:0;max-width:65ch}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.lede{color:var(--muted)}
+header{display:flex;flex-direction:column;gap:10px;border-bottom:1px solid var(--line);padding-bottom:28px}
+.meta{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+
+/* 목차 */
+nav ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px 20px}
+nav a{color:var(--fg);text-decoration:none;display:flex;gap:10px;font-size:14px;padding:4px 0;border-bottom:1px dotted var(--line)}
+nav a:hover,nav a:focus-visible{color:var(--accent);outline:none}
+nav .n{font-family:var(--f-mono);color:var(--muted);min-width:2ch}
+
+/* 일정 레일 */
+.rail{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow:hidden}
+.step{padding:14px 14px 16px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:6px;min-width:0}
+.step:last-child{border-right:0}
+.step .when{font-family:var(--f-mono);font-size:12px;color:var(--accent);font-weight:500}
+.step .what{font-size:14px;font-weight:600}
+.step .sub{font-size:12.5px;color:var(--muted);line-height:1.5}
+.step.now{background:var(--accent-soft)}
+.added{color:var(--todo);font-weight:500}
+@media (max-width:720px){.rail{grid-template-columns:1fr}.step{border-right:0;border-bottom:1px solid var(--line)}.step:last-child{border-bottom:0}}
+
+/* 섹션 */
+section{display:flex;flex-direction:column;gap:16px;scroll-margin-top:16px}
+.sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.sec-no{font-family:var(--f-mono);font-size:14px;color:var(--accent);font-weight:500}
+.chip{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;letter-spacing:.02em}
+.chip.todo{background:var(--todo-soft);color:var(--todo)}
+.chip.ready{background:var(--ready-soft);color:var(--ready)}
+.chip.decide{background:var(--accent-soft);color:var(--accent)}
+.grid2{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:20px}
+@media (max-width:720px){.grid2{grid-template-columns:1fr}}
+.box{display:flex;flex-direction:column;gap:8px;min-width:0}
+.src{font-size:13px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 12px;display:flex;flex-direction:column;gap:4px}
+.src code{font-family:var(--f-mono);font-size:12px;color:var(--fg)}
+.callout{background:var(--accent-soft);border-radius:6px;padding:12px 14px;font-size:14px}
+
+/* 표 틀 */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-weight:600;color:var(--muted);font-size:12px;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.ph{color:var(--muted)}
+.cap{font-size:12px;color:var(--muted)}
+hr{border:0;border-top:1px solid var(--line);margin:0}
+th.num,td.num{text-align:right}
+td.mono{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+td.hi{color:var(--todo);font-weight:600}
+tr.total td{font-weight:600;background:var(--bg)}
+td{white-space:normal}
+td.mono,td.num{white-space:nowrap}
+.tag{display:inline-block;font-size:11px;padding:1px 6px;border-radius:4px;background:var(--accent-soft);color:var(--accent);margin-right:4px;white-space:nowrap}
+.tag.warn{background:var(--todo-soft);color:var(--todo)}
+.details-stack{display:flex;flex-direction:column;gap:10px}
+details{display:flex;flex-direction:column;gap:8px}
+summary{cursor:pointer;font-size:14px;padding:6px 0}
+details .tbl{margin-top:8px}
+.callout ul{margin-top:6px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px}
+.c0{background:var(--ch0)}.c1{background:var(--ch1)}.c2{background:var(--ch2)}.c3{background:var(--ch3)}
+.mixcell{min-width:140px}
+.mix{display:flex;height:10px;border-radius:3px;overflow:hidden;background:var(--line);width:140px}
+.seg{display:block;height:100%}
+tr.minor td{color:var(--muted)}
+/* 포지션 차트 */
+.pc-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.pc{min-width:800px;display:flex;flex-direction:column;padding:4px 14px 10px}
+.pc-row{display:grid;grid-template-columns:164px minmax(226px,1fr) 64px 94px 206px;gap:10px;align-items:center;padding:7px 0;font-size:13px;font-variant-numeric:tabular-nums}
+.pc-row.head{font-size:11.5px;color:var(--muted);font-weight:600;border-bottom:1px solid var(--line);padding:10px 0 8px}
+.pc-row .num{text-align:right}
+.pc-group{border-top:1px solid var(--line);padding:12px 0 2px;margin-top:4px}
+.pc-group:first-of-type{border-top:0}
+.pc-gt{display:flex;gap:12px;align-items:baseline}
+.pc-gt strong{font-size:15px}
+.pc-gt span{font-size:12px;color:var(--muted)}
+.nm{display:flex;flex-direction:column;line-height:1.35;min-width:0}
+.nm small{font-size:11px;color:var(--muted)}
+.trk{position:relative;height:22px}
+.trk i,.trk b,.trk em{position:absolute;display:block}
+.trk .gl{top:0;bottom:0;width:1px;background:var(--line)}
+.trk .gl.mid{background:none;border-left:1.5px dashed var(--muted)}
+.trk .band{top:0;bottom:0;background:var(--accent-soft)}
+.trk .wh{top:10.5px;height:1px;background:var(--muted);opacity:.55}
+.trk .box{top:5px;height:12px;background:var(--boxfill);border-radius:2px}
+.trk .dot{top:5px;width:12px;height:12px;margin-left:-6px;border-radius:50%;border:2px solid var(--surface);box-sizing:content-box;margin-top:-2px}
+.dot.lo,.lg-dot.lo{background:var(--lo)}.dot.hi,.lg-dot.hi{background:var(--hi)}.dot.mid{background:var(--muted)}
+.dot.ref,.lg-dot.ref{background:var(--surface);border:2px solid var(--hi)!important}
+.trk em{top:2px;margin-left:12px;font-style:normal;font-weight:700;font-size:12.5px}
+.pos{font-weight:700}.pos.muted{font-weight:400;color:var(--muted)}
+.cnt{color:var(--muted)}
+.cmp{display:flex;flex-direction:column;line-height:1.35;min-width:0;font-size:12px}
+.cmp .cap{font-size:11px}
+.cmp .rep{font-weight:500}
+.pc-row.axis{padding-top:2px}
+.ax{position:relative;height:16px;font-size:11px;color:var(--muted)}
+.ax span{position:absolute;transform:translateX(-50%)}
+.lg-dot{display:inline-block;width:10px;height:10px;border-radius:50%}
+.lg-box{display:inline-block;width:22px;height:10px;background:var(--boxfill);border-radius:2px}
+.lg-band{display:inline-block;width:22px;height:10px;background:var(--accent-soft);border-radius:2px}
+/* 3단계 트리 */
+.tree{display:flex;flex-direction:column;align-items:center;gap:0;padding:20px 16px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.t-root{display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center;padding:12px 22px;border:1.5px solid var(--fg);border-radius:6px;background:var(--bg)}
+.t-root strong{font-size:16px}
+.t-stem{width:1.5px;height:18px;background:var(--muted)}
+.t-step{font-size:13px;font-weight:600;display:flex;gap:8px;align-items:center;padding:4px 0 10px}
+.t-step.sm{font-size:12.5px;padding:12px 0 8px;justify-content:center}
+.stepno{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--surface);background:var(--fg);padding:1px 7px;border-radius:999px}
+.t-paths{display:grid;grid-template-columns:1fr 1fr;gap:20px;width:100%;position:relative;padding-top:14px;border-top:1.5px solid var(--muted)}
+.path{display:flex;flex-direction:column;min-width:0;position:relative}
+.path::before{content:"";position:absolute;top:-14px;left:50%;width:1.5px;height:14px;background:var(--muted)}
+.pnode{border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;border:1.5px solid var(--pc);background:var(--pbg)}
+.pnode.sup,.grp.sup{--pc:var(--ch1);--pbg:var(--todo-soft)}
+.pnode.rrp,.grp.rrp{--pc:var(--accent);--pbg:var(--accent-soft)}
+.ptag{font-family:var(--f-mono);font-size:11px;color:var(--pc);font-weight:500}
+.pnode h4{margin:0;font-size:17px}
+.pnode p{font-size:13.5px}
+.pnode dl{margin:0;display:flex;flex-direction:column;gap:4px;font-size:12.5px}
+.pnode dl div{display:grid;grid-template-columns:72px 1fr;gap:8px}
+.pnode dt{color:var(--muted)}.pnode dd{margin:0}
+.leaves{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;position:relative;padding-top:12px;border-top:1.5px solid var(--line)}
+.leaf{display:flex;flex-direction:column;gap:4px;padding:10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);font-size:12.5px;position:relative;min-width:0}
+.leaf::before{content:"";position:absolute;top:-13px;left:50%;width:1.5px;height:12px;background:var(--line)}
+.leaf strong{font-size:13.5px}
+.lid{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.ld{color:var(--muted);line-height:1.5}
+th.grp{text-align:center;color:var(--pc);background:var(--pbg)}
+@media (max-width:720px){.t-paths{grid-template-columns:1fr;border-top:0;padding-top:0}.path::before{display:none}.leaves{grid-template-columns:1fr}.leaf::before{display:none}}
+/* 스코어링 */
+table.score td{vertical-align:top}
+table.score td small{display:block;font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.4;max-width:22ch}
+table.score .ln{font-weight:600;white-space:nowrap}
+table.score .nt{font-size:12px;color:var(--muted);max-width:24ch}
+table.score tr.gstart td{border-top:2px solid var(--line)}
+.hint{font-weight:400;font-size:11px;color:var(--muted)}
+.lv{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:4px;white-space:nowrap}
+.lv.fav{background:var(--accent-soft);color:var(--accent)}
+.lv.neu{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.lv.unf{background:var(--todo-soft);color:var(--todo)}
+.lv.plain{background:var(--bg);color:var(--fg);border:1px solid var(--line)}
+.grpchip{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;font-weight:700;font-size:13px;font-family:var(--f-mono)}
+.grpchip.gA{background:var(--accent);color:var(--surface)}
+.grpchip.gB{background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent)}
+.grpchip.gC{background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.grpsum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.gs{display:flex;gap:10px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.gs div{display:flex;flex-direction:column;flex:1;min-width:0;font-size:12.5px}
+.gs div span{color:var(--muted)}
+.gs b{font-size:18px;font-variant-numeric:tabular-nums}
+@media (max-width:720px){.grpsum{grid-template-columns:1fr}}
+/* 시뮬레이션 박스 */
+.gs b{display:flex;flex-direction:column;align-items:flex-end;line-height:1.2}
+.gs b small{font-size:10.5px;font-weight:500;color:var(--muted)}
+.sims{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+
+.sim{border:1.5px solid var(--accent);border-radius:8px;background:var(--surface);padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.sim-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sim-h{flex-direction:column;align-items:flex-start;gap:4px}
+.sim-h strong{font-size:12px;font-weight:700;color:var(--accent);background:var(--accent-soft);padding:2px 8px;border-radius:4px}
+.sim-name{font:inherit;font-size:16px;font-weight:700;color:var(--fg);width:100%;border:0;border-bottom:1px dashed var(--line);background:transparent;padding:2px 0;min-width:0;flex:1}
+.sim-name:focus{outline:none;border-bottom-color:var(--accent)}
+.simtbl{width:100%;border-collapse:collapse;font-size:13px}
+.simtbl th,.simtbl td{padding:6px 4px;border-bottom:1px solid var(--line)}
+.simtbl input{width:56px;font:inherit;font-variant-numeric:tabular-nums;text-align:right;padding:3px 6px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--fg);margin-right:3px}
+.simtbl input:focus{outline:2px solid var(--accent);outline-offset:0}
+.sim-out{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.sim-out div{background:var(--accent-soft);border-radius:6px;padding:8px 10px;display:flex;flex-direction:column}
+.sim-out span{font-size:11.5px;color:var(--muted)}
+.sim-out b{font-size:20px;color:var(--accent);font-variant-numeric:tabular-nums}
+em.rk{font-style:normal;font-weight:700;color:var(--hi)}
+table.chtbl td{vertical-align:top}
+table.chtbl .ln{font-weight:600;white-space:nowrap}
+/* 서브섹션 제목 */
+h2{font-size:22px}
+h3.sub{font-size:17px;font-weight:700;color:var(--fg);display:flex;align-items:center;gap:10px;letter-spacing:-.005em}
+.subno{font-family:var(--f-mono);font-size:12px;font-weight:500;color:var(--surface);background:var(--accent);padding:2px 7px;border-radius:4px;flex:none}
+.box:has(> h3.sub){margin-top:18px;padding-top:14px;border-top:1px dashed var(--line)}
+.sec-head + .box:has(> h3.sub),.sec-head + p + .box:has(> h3.sub){margin-top:0;padding-top:0;border-top:0}
+.t-paths2{display:grid;grid-template-columns:minmax(0,2fr) auto minmax(0,1fr);gap:14px;width:100%;align-items:start}
+.vs{align-self:stretch;display:flex;flex-direction:column;align-items:center;gap:8px;padding:0 6px}
+.vs i{flex:1;width:0;border-left:2px dashed var(--muted);opacity:.6}
+.vs span{font-size:12.5px;font-weight:700;color:var(--fg);background:var(--bg);border:1.5px solid var(--fg);border-radius:999px;padding:4px 10px;white-space:nowrap}
+.path.alt{align-self:stretch}.path.alt .pnode{height:100%;box-sizing:border-box;border-style:dashed}
+@media (max-width:720px){.t-paths2{grid-template-columns:1fr}.vs{flex-direction:row;padding:4px 0}.vs i{height:0;width:auto;border-left:0;border-top:2px dashed var(--muted)}}
+/* 라인별 가격 위계 */
+.hier{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.hc{border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.hh{display:flex;flex-direction:column;gap:1px;margin-bottom:2px}
+.hh strong{font-size:15px}
+.hh span{font-size:11.5px;color:var(--muted)}
+.hr{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) auto;gap:10px;align-items:center;font-size:13px}
+.hn{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hb{height:12px;background:var(--bg);border-radius:2px;overflow:hidden}
+.hb i{display:block;height:100%;background:var(--accent);opacity:.75}
+.hb i.top{background:var(--fg);opacity:1}
+.hv{font-weight:600;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.hnote{font-size:11.5px;color:var(--muted);margin-top:2px}
+.hc.read{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.hc.read p{font-size:13px;line-height:1.55}
+.hc.read b{font-weight:700}
+table.review td{vertical-align:top;height:72px}
+table.review th:nth-child(2),table.review td:nth-child(2){width:50%}
+table.review .ln{font-weight:600;white-space:nowrap}
+ol.acts{margin:0;padding-left:1.3em;display:flex;flex-direction:column;gap:10px}
+table.packtbl td{vertical-align:top}
+table.packtbl td small{display:block;font-size:11px;color:var(--muted);font-weight:400}
+table.packtbl .pn{min-width:150px}
+table.packtbl .pn strong{display:block;font-size:14px}
+table.packtbl .pn small{white-space:normal}
+table.packtbl tr.base td:not(.pn){background:var(--bg);color:var(--muted)}
+table.packtbl tr.base{border-top:2px solid var(--line)}
+table.packtbl tr.r10 td:not(.pn){background:var(--r10)}
+table.packtbl tr.r15 td:not(.pn){background:var(--r15)}
+table.packtbl tr.r10 td.num,table.packtbl tr.r15 td.num{font-weight:600;color:var(--fg)}
+.rl{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+tr.base .rl{color:var(--muted);border:1px solid var(--line)}
+tr.r10 .rl{background:var(--hi);color:var(--surface);opacity:.75}
+tr.r15 .rl{background:var(--hi);color:var(--surface)}
+td.idx b.out{color:var(--hi)}
+td.idx b.in{color:var(--accent)}
+table.packtbl tr.r5 td:not(.pn){background:var(--r5)}
+table.packtbl tr.r5 td.num{font-weight:600;color:var(--fg)}
+tr.r5 .rl{background:var(--hi);color:var(--surface);opacity:.5}
+ol.qs{margin:0;padding-left:1.3em;display:flex;flex-direction:column;gap:10px}
+ol.qs .qp{display:block;font-size:12.5px;color:var(--muted);line-height:1.5}
+ol.qs .qp b{color:var(--fg);font-weight:600}
+ol.qs .ans{display:block;margin-top:2px}
+.grpkey{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 8px;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);font-size:12px}
+.gk-t{font-size:11.5px;font-weight:600;color:var(--muted)}
+.gk{display:inline-flex;align-items:center;gap:5px;color:var(--muted);white-space:nowrap}
+.gk .grpchip{width:20px;height:20px;font-size:11.5px;border-radius:5px}
+.gk b{color:var(--fg);font-weight:700}
+.gk em{font-style:normal;font-weight:700;color:var(--fg);font-variant-numeric:tabular-nums}
+footer{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">가격 리포지셔닝 · 내부 검토</span>
+  <h1>라엘 펨케어 제품 2027년 가격 인상 검토</h1>
+  <span class="meta">작업본 v0.6 · 2026-10-19</span>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <span class="chip todo">작성 예정</span>
+    <span class="chip ready">데이터 확보</span>
+    <span class="chip decide">의사결정 항목</span>
+  </div>
+</header>
+
+<nav aria-label="목차">
+  <ol>
+    <li><a href="#summary"><span class="n">—</span>문서 목적 및 의사결정 사안</a></li>
+    <li><a href="#bg"><span class="n">—</span>배경 · 일정</a></li>
+    <li><a href="#s0"><span class="n">0</span>현황</a></li>
+    <li><a href="#s1"><span class="n">1</span>가격 포지션 분석</a></li>
+    <li><a href="#s2"><span class="n">2</span>인상폭 및 배분</a></li>
+    <li><a href="#s3"><span class="n">3</span>시뮬레이션 안</a></li>
+    <li><a href="#s4"><span class="n">4</span>영업/재무/상품 검토의견</a></li>
+    <li><a href="#s5"><span class="n">5</span>최종 의사결정</a></li>
+    <li><a href="#s6"><span class="n">6</span>향후 가격 원칙</a></li>
+  </ol>
+</nav>
+
+<!-- 요약 -->
+<section id="summary">
+  <div class="sec-head"><h2>본 문서의 목적 및 의사결정 사안</h2><span class="chip todo">작성 예정</span></div>
+  <p>원가 인상분 보전을 위해, 인상 대상(공급가/정가)과 인상 방식(차등/일괄/일부)을 결정하고 11월 SKU별 가격 책정에 착수하기 위한 검토 자료.</p>
+  <div class="box">
+    <h3>이번 회의에서 결정할 것</h3>
+    <ul>
+      <li>인상 대상: 정가 인상(기본안) / 공급가만 인상(대안)</li>
+      <li>인상 방식: 라인별 차등(A) / 일괄 10%(B) / 일부 품목(C)</li>
+      <li>라인별 인상 그룹(A/B/C) 확정</li>
+      <li>11월 SKU별 가격 책정 착수 승인</li>
+    </ul>
+  </div>
+</section>
+
+<hr>
+
+<!-- 배경 -->
+<section id="bg">
+  <div class="sec-head"><h2>배경 및 목표 인상률</h2><span class="chip todo">작성 예정</span></div>
+  <div class="box">
+    <h3>배경</h3>
+    <p>원가 인상으로 인한 이익 보전. 인상 적정성을 검토한다.</p>
+  </div>
+
+  <h3>추진 일정</h3>
+  <div class="rail">
+    <div class="step now"><span class="when">10월</span><span class="what">인상폭 시뮬레이션</span><span class="sub">마케팅 안 제안 → 영업·상품·재무 검토 의견</span></div>
+    <div class="step"><span class="when">11월</span><span class="what">SKU별 가격 책정</span><span class="sub">상세 SKU 가격 확정</span></div>
+    <div class="step"><span class="when">11–12월</span><span class="what">유통사 협상</span><span class="sub">공문 전달 및 협상</span></div>
+    <div class="step"><span class="when">1–3월</span><span class="what">반영 · 모니터링</span><span class="sub">가격 반영 및 판매 추이 모니터링</span></div>
+    <div class="step"><span class="when">2027 패키지 리뉴얼 시</span><span class="what">후속 조정</span><span class="sub">입수량 등 필요시 조정</span></div>
+  </div>
+</section>
+
+<hr>
+
+<!-- 0 현황 -->
+<section id="s0">
+  <div class="sec-head"><span class="sec-no">0</span><h2>현황</h2><span class="chip ready">원가 인상 반영</span></div>
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">0-1</span>원가 인상 현황 (제조사별)</h3>
+    <p>4개 제조사, 59개 SKU의 원가가 26년 4월부터 인상. E&amp;W와 CHL은 2차 인상(7월·10월)까지 반영된 수치.</p>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>제조사</th><th>카테고리</th><th class="num">SKU 수</th><th class="num">인상률 범위</th><th class="num">중앙값</th><th class="num">단순평균<br><span class="cap">이상치 제외</span></th><th>적용 시점</th></tr></thead>
+    <tbody>
+<tr><td>SSK</td><td>생리대 (시트형)</td><td class="num">34</td><td class="num">5.0–49.7%</td><td class="num">13.8%</td><td class="num">13.2%</td><td>26년 4월</td></tr>
+<tr><td>E&amp;W</td><td>입는 오버나이트</td><td class="num">11</td><td class="num">12.1–15.2%</td><td class="num">13.3%</td><td class="num">13.5%</td><td>26년 4월 / 7월(2차)</td></tr>
+<tr><td>슈사오</td><td>초슬림 라이너 · 요실금</td><td class="num">9</td><td class="num">8.5–10.0%</td><td class="num">8.5%</td><td class="num">8.7%</td><td>26년 4월 PO부터</td></tr>
+<tr><td>CHL</td><td>라이너</td><td class="num">5</td><td class="num">15.5–15.6%</td><td class="num">15.5%</td><td class="num">15.5%</td><td>26년 4월 / 10월(2차)</td></tr>
+      <tr class="total"><td>전체</td><td></td><td class="num">59</td><td class="num">5.0–49.7%</td><td class="num">13.4%</td><td class="num">12.8%</td><td></td></tr>
+    </tbody>
+  </table></div>
+  <p class="cap">단순평균은 SKU 수 기준. 매출 가중 원가 인상률은 SKU별 원가 금액과 판매 수량이 들어오면 산출.</p>
+
+  <div class="callout">
+    <p><strong>시사점</strong></p>
+    <ul>
+      <li>주력 생리대(SSK)·라이너(CHL)·입는 오버나이트(E&amp;W) 원가가 대부분 12~17% 올라, <strong>정가 10% 인상만으로는 원가율이 이전 수준으로 돌아오지 않는 품목이 다수</strong>.</li>
+      <li>슈사오(초슬림 라이너·요실금)는 8.5%로 상대적으로 낮고, 프리미엄 중·대형은 5%대로 인상 여력 판단이 다른 그룹.</li>
+      <li>다이소 SKU 7종(생리대 2 · 입는오버나이트 2 · 초슬림 라이너·요실금 3)도 8.5~13.4% 인상. 다이소 가격 구조상 반영 방식 별도 검토 필요(6번 원칙과 연결).</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">0-2</span>SKU별 원가 인상 상세</h3>
+  </div>
+  <div class="details-stack">
+<details><summary><strong>SSK</strong> · 생리대 (시트형) · 34개 SKU · 적용 26년 4월</summary><div class="tbl"><table><thead><tr><th>SKU</th><th>품명</th><th class="num">인상률</th><th>비고</th></tr></thead><tbody><tr><td class="mono">PKR10100014</td><td>생리대 소형</td><td class="num">13.7%</td><td></td></tr><tr><td class="mono">PKR10100011</td><td>생리대 중형</td><td class="num">14.3%</td><td></td></tr><tr><td class="mono">PKR10100009</td><td>생리대 중형 2장 (V2104, 바코드)</td><td class="num">10.4%</td><td><span class="tag">샘플·증정</span></td></tr><tr><td class="mono">PKR10100006</td><td>생리대 중형 4장</td><td class="num hi">49.7%</td><td><span class="tag warn">이상치 확인</span></td></tr><tr><td class="mono">PKR10100031</td><td>라엘 생리대 중형 28개입 (폴리백ver)</td><td class="num">14.8%</td><td></td></tr><tr><td class="mono">PKR10100062</td><td>트레이더스_순면커버중형48P_RRP</td><td class="num">13.7%</td><td></td></tr><tr><td class="mono">PKR10100017</td><td>생리대 대형</td><td class="num">14.2%</td><td></td></tr><tr><td class="mono">PKR10100033</td><td>라엘 생리대 대형 28개입 (폴리백ver)</td><td class="num">18.2%</td><td></td></tr><tr><td class="mono">PKR10100058</td><td>라엘 순면 대형 24개입 (단상자)(올리브영)</td><td class="num">12.3%</td><td></td></tr><tr><td class="mono">PKR10100063</td><td>트레이더스_순면커버대형40P_RRP</td><td class="num">13.3%</td><td></td></tr><tr><td class="mono">PKR10100012</td><td>생리대 오버나이트</td><td class="num">12.5%</td><td></td></tr><tr><td class="mono">PKR10100013</td><td>생리대 슈퍼롱 오버나이트</td><td class="num">11.5%</td><td></td></tr><tr><td class="mono">PKR10100043</td><td>라엘 생리대 중형 7개입 (다이소)</td><td class="num">12.4%</td><td><span class="tag">다이소</span></td></tr><tr><td class="mono">PKR10100044</td><td>라엘 생리대 대형 7개입 (다이소)</td><td class="num">12.7%</td><td><span class="tag">다이소</span></td></tr><tr><td class="mono">PKR10100025</td><td>라엘 올그린 중형</td><td class="num">16.0%</td><td></td></tr><tr><td class="mono">PKR10100028</td><td>라엘 올그린 대형</td><td class="num">16.1%</td><td></td></tr><tr><td class="mono">PKR10100027</td><td>라엘 올그린 슈퍼롱 오버나이트 6개입</td><td class="num">13.8%</td><td></td></tr><tr><td class="mono">PKR10100056</td><td>라엘 프리미엄 중형 12개입</td><td class="num">5.0%</td><td></td></tr><tr><td class="mono">PKR10100057</td><td>라엘 프리미엄 대형 12개입</td><td class="num">5.1%</td><td></td></tr><tr><td class="mono">PKR10100059</td><td>라엘 순면커버 중형 16개입 (폴리백)(편의점)</td><td class="num">15.6%</td><td></td></tr><tr><td class="mono">PKR10100060</td><td>라엘 순면커버 대형 14개입 (폴리백)(편의점)</td><td class="num">15.7%</td><td></td></tr><tr><td class="mono">PKR10100047</td><td>라엘 내추럴 순면 생리대 소형</td><td class="num">15.2%</td><td></td></tr><tr><td class="mono">PKR10100037</td><td>라엘 내추럴 순면 생리대 중형</td><td class="num">16.3%</td><td></td></tr><tr><td class="mono">PKR10100038</td><td>라엘 내추럴 순면 생리대 대형</td><td class="num">16.7%</td><td></td></tr><tr><td class="mono">PKR10100039</td><td>라엘 내추럴 순면 생리대 오버나이트</td><td class="num">16.1%</td><td></td></tr><tr><td class="mono">PKR10100046</td><td>라엘 내추럴 순면 생리대 중형 2개입 바코드</td><td class="num">7.4%</td><td><span class="tag">샘플·증정</span></td></tr><tr><td class="mono">SKR10100003</td><td>라엘 내추럴 순면 생리대 중형 2개입_증정용</td><td class="num">7.4%</td><td><span class="tag">샘플·증정</span></td></tr><tr><td class="mono">PKR10100072</td><td>라엘 내추럴 순면 커버 중형 36개입</td><td class="num">16.3%</td><td></td></tr><tr><td class="mono">PKR10100073</td><td>라엘 내추럴 순면 커버 대형 32개입</td><td class="num">16.7%</td><td></td></tr><tr><td class="mono">PKR10100066</td><td>라엘 에어리쿨 순면커버 중형 14개입</td><td class="num">13.1%</td><td></td></tr><tr><td class="mono">PKR10100067</td><td>라엘 에어리쿨 순면커버 대형 12개입</td><td class="num">13.3%</td><td></td></tr><tr><td class="mono">SKR10100004</td><td>라엘 에어리쿨 순면커버 중형 2개입 (증정용)</td><td class="num">9.1%</td><td><span class="tag">샘플·증정</span></td></tr><tr><td class="mono">PKR10100070</td><td>라엘 에어리쿨 순면커버 중형 14개입(올영기획팩)</td><td class="num">13.8%</td><td></td></tr><tr><td class="mono">PKR10100071</td><td>라엘 에어리쿨 순면커버 대형 12개입(올영기획팩)</td><td class="num">13.7%</td><td></td></tr></tbody></table></div></details>
+<details><summary><strong>E&amp;W</strong> · 입는 오버나이트 · 11개 SKU · 적용 26년 4월 / 7월(2차)</summary><div class="tbl"><table><thead><tr><th>SKU</th><th>품명</th><th class="num">인상률</th><th class="num">2차(7월) 인상 단가(원)</th><th>비고</th></tr></thead><tbody><tr><td class="mono">PKR10100021</td><td>라엘 입는 오버나이트 미디엄 4개입</td><td class="num">13.0%</td><td class="num">1,252</td><td></td></tr><tr><td class="mono">PKR10100020</td><td>라엘 입는 오버나이트 미디엄 8개입</td><td class="num">13.3%</td><td class="num">2,392</td><td></td></tr><tr><td class="mono">SKR10100001</td><td>라엘 입는 오버나이트 미디엄 1P</td><td class="num">12.1%</td><td class="num">389</td><td><span class="tag">샘플·증정</span></td></tr><tr><td class="mono">PKR10100024</td><td>라엘 입는 오버나이트 라지 4개입</td><td class="num">14.7%</td><td class="num">1,432</td><td></td></tr><tr><td class="mono">PKR10100023</td><td>라엘 입는 오버나이트 라지 8개입</td><td class="num">15.2%</td><td class="num">2,728</td><td></td></tr><tr><td class="mono">PKR10100041</td><td>라엘 입는 오버나이트 미디엄 2개입 (다이소)</td><td class="num">12.1%</td><td class="num">778</td><td><span class="tag">다이소</span></td></tr><tr><td class="mono">PKR10100042</td><td>라엘 입는 오버나이트 라지 2개입 (다이소)</td><td class="num">13.4%</td><td class="num">896</td><td><span class="tag">다이소</span></td></tr><tr><td class="mono">PKR10100064</td><td>라엘 슬림핏 순면커버 입는 오버나이트 미디엄</td><td class="num">13.3%</td><td class="num">1,842</td><td></td></tr><tr><td class="mono">PKR10100065</td><td>라엘 슬림핏 순면커버 입는 오버나이트 라지</td><td class="num">14.9%</td><td class="num">2,088</td><td></td></tr><tr><td class="mono">PKR10100068</td><td>라엘 에어리쿨 순면커버 입는 오버나이트 미디엄 4개입</td><td class="num">12.5%</td><td class="num">1,300</td><td></td></tr><tr><td class="mono">PKR10100069</td><td>라엘 에어리쿨 순면커버 입는 오버나이트 라지 4개입</td><td class="num">14.0%</td><td class="num">1,500</td><td></td></tr></tbody></table></div></details>
+<details><summary><strong>슈사오</strong> · 초슬림 라이너 · 요실금 · 9개 SKU · 적용 26년 4월 PO부터</summary><div class="tbl"><table><thead><tr><th>SKU</th><th>품명</th><th class="num">인상률</th><th>비고</th></tr></thead><tbody><tr><td class="mono">PKR10110002</td><td>초슬림 팬티 라이너 (70매)</td><td class="num">8.5%</td><td></td></tr><tr><td class="mono">PKR10110007</td><td>라엘 초슬림 라이너 40개입 (다이소)</td><td class="num">8.5%</td><td><span class="tag">다이소</span></td></tr><tr><td class="mono">PKR10160002</td><td>라엘 요실금 중용량(슬림) 30P</td><td class="num">8.5%</td><td></td></tr><tr><td class="mono">PKR10160009</td><td>라엘 요실금 대용량(슬림) 20P</td><td class="num">8.5%</td><td></td></tr><tr><td class="mono">PKR10160006</td><td>라엘 요실금 일반 라이너</td><td class="num">8.5%</td><td></td></tr><tr><td class="mono">PKR10160008</td><td>라엘 요실금 롱 라이너</td><td class="num">8.5%</td><td></td></tr><tr><td class="mono">SKR10100007</td><td>요실금 롱라이너 2P</td><td class="num">10.0%</td><td><span class="tag">샘플·증정</span></td></tr><tr><td class="mono">PKR10160012</td><td>라엘 요실금 일반 라이너 20개입 (다이소)</td><td class="num">8.5%</td><td><span class="tag">다이소</span></td></tr><tr><td class="mono">PKR10160013</td><td>라엘 요실금 롱 라이너 16개입 (다이소)</td><td class="num">8.5%</td><td><span class="tag">다이소</span></td></tr></tbody></table></div></details>
+<details><summary><strong>CHL</strong> · 라이너 · 5개 SKU · 적용 26년 4월 / 10월(2차)</summary><div class="tbl"><table><thead><tr><th>SKU</th><th>품명</th><th class="num">인상률</th><th class="num">2차(10월) 인상 단가(원)</th><th>비고</th></tr></thead><tbody><tr><td class="mono">PKR10110005</td><td>라이너 레귤러</td><td class="num">15.5%</td><td class="num">924</td><td></td></tr><tr><td class="mono">PKR10110004</td><td>라이너 롱</td><td class="num">15.5%</td><td class="num">915</td><td></td></tr><tr><td class="mono">PKR10110003</td><td>라이너 롱 36P</td><td class="num">15.5%</td><td class="num">1,851</td><td></td></tr><tr><td class="mono">PKR10110006</td><td>라엘 슈퍼롱 팬티라이너 18개입</td><td class="num">15.6%</td><td class="num">999</td><td></td></tr><tr><td class="mono">PKR10110008</td><td>라엘 롱 라이너 54개입(올리브영)</td><td class="num">15.5%</td><td class="num">2,745</td><td></td></tr></tbody></table></div></details>
+  </div>
+
+  <div class="src">
+    <strong>데이터 출처</strong>
+    <span>원가 인상: 제조사별 인상 통보 자료 (SSK · E&amp;W · 슈사오 · CHL)</span>
+    <span><code>라엘 포지션</code> 시트: SKU·채널별 입수, 정가, 매당단가</span>
+    <span>판매 수량·채널 조건: 영업/재무 자료 필요</span>
+  </div>
+</section>
+
+<hr>
+
+<!-- 1 포지션 -->
+<section id="s1">
+  <div class="sec-head"><span class="sec-no">1</span><h2>가격 포지션 분석</h2><span class="chip ready">반영 완료</span></div>
+  <div class="box">
+    <h3 class="sub"><span class="subno">1-1</span>같은 등급 경쟁 중앙값 = 100 기준 매당단가 지수</h3>
+    <p>지수 = 라엘 매당단가(정가) ÷ 같은 등급 경쟁 중앙값 × 100. 유기농 순면(+순면) 경쟁사, 2026.10 가격조사. 등급 A 순면·무표백 / B 유기농 기본 / C 유기농+기능 / D 프리미엄. <strong>라엘은 공용 채널 정가 기준, 다이소·올리브영 전용 SKU 제외.</strong></p>
+  </div>
+  <div class="legend">
+    <span><i class="lg-dot lo"></i>경쟁 중앙값보다 저렴</span>
+    <span><i class="lg-dot hi"></i>경쟁 중앙값보다 비쌈</span>
+    <span><i class="lg-dot ref"></i>참고 ※</span>
+    <span><i class="lg-box"></i>경쟁 중간 50% (P25~P75) · 선 = 최저~최고</span>
+    <span><i class="lg-band"></i>원칙 범위 100~120</span>
+  </div>
+  <div class="pc-scroll"><div class="pc">
+    <div class="pc-row head"><div>라엘 제품</div><div>지수</div><div class="num">매당가(원)</div><div class="num">비교 중앙값(원)</div><div>비교군 (대표 브랜드 3)</div></div>
+<div class="pc-group"><div class="pc-gt"><strong>생리대</strong><span>중형 기준 (대형도 같은 방향)</span></div></div>
+<div class="pc-row"><div class="nm"><span>무표백</span><small>중형 14개입 · 대형 -9% (저가대)</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:35.72%;width:14.45%"></i><i class="box" style="left:41.06%;width:6.01%"></i><b class="dot lo" style="left:38.33%"></b><em style="left:38.33%">89</em></div><div class="num">457</div><div class="num">A 512 <span class="cnt">(4)</span></div><div class="cmp"><span class="rep">쏘피 · 좋은느낌 · 시크릿데이</span><span class="cap">3개 브랜드 · 4개 라인 · 431~564원</span></div></div>
+<div class="pc-row"><div class="nm"><span>민트 (유기농 순면)</span><small>중형 14개입 · 대형 +20% (고가대)</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:24.96%;width:48.33%"></i><i class="box" style="left:36.09%;width:16.00%"></i><b class="dot hi" style="left:53.89%"></b><em style="left:53.89%">117</em></div><div class="num">600</div><div class="num">B 512 <span class="cnt">(12)</span></div><div class="cmp"><span class="rep">이브네 · 템포 · 쏘피</span><span class="cap">9개 브랜드 · 12개 라인 · 333~779원</span></div></div>
+<div class="pc-row"><div class="nm"><span>에어리쿨</span><small>중형 14개입 · 대형 +32% (고가대)</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:37.71%;width:11.88%"></i><i class="box" style="left:43.01%;width:4.99%"></i><b class="dot hi" style="left:61.11%"></b><em style="left:61.11%">130</em></div><div class="num">671</div><div class="num">C 516 <span class="cnt">(7)</span></div><div class="cmp"><span class="rep">좋은느낌 · 시크릿데이 · 아임오</span><span class="cap">6개 브랜드 · 7개 라인 · 454~564원</span></div></div>
+<div class="pc-row"><div class="nm"><span>올그린 (친환경)</span><small>중형 12개입 · 대형 +52% (고가대)</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:24.96%;width:48.33%"></i><i class="box" style="left:36.09%;width:16.00%"></i><b class="dot hi" style="left:69.44%"></b><em style="left:69.44%">145</em></div><div class="num">742</div><div class="num">B 512 <span class="cnt">(12)</span></div><div class="cmp"><span class="rep">이브네 · 템포 · 쏘피</span><span class="cap">9개 브랜드 · 12개 라인 · 333~779원</span></div></div>
+<div class="pc-row"><div class="nm"><span>프리미엄</span><small>중형 12개입 · 대형 -1% (저가대)</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:27.44%;width:34.92%"></i><i class="box" style="left:41.85%;width:8.26%"></i><b class="dot hi" style="left:50.00%"></b><em style="left:50.00%">110</em></div><div class="num">900</div><div class="num">D 817 <span class="cnt">(9)</span></div><div class="cmp"><span class="rep">소이로움 · 나트라케어 · 이너생각</span><span class="cap">6개 브랜드 · 9개 라인 · 567~1,080원</span></div></div>
+<div class="pc-group"><div class="pc-gt"><strong>입는오버나이트</strong><span>M/L/XL 통합 · 전체 비교</span></div></div>
+<div class="pc-row"><div class="nm"><span>무표백 6개입</span><small>순면·무표백</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:38.96%;width:18.83%"></i><i class="box" style="left:43.10%;width:8.67%"></i><b class="dot lo" style="left:34.44%"></b><em style="left:34.44%">82</em></div><div class="num">1,650</div><div class="num">2,016 <span class="cnt">(12)</span></div><div class="cmp"><span class="rep">좋은느낌 · 쏘피 · 순수한면</span><span class="cap">8개 브랜드 · 12개 라인 · 1,817~2,500원</span></div></div>
+<div class="pc-row"><div class="nm"><span>기본 4개입</span><small>유기농 순면</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:38.96%;width:18.83%"></i><i class="box" style="left:43.10%;width:8.67%"></i><b class="dot lo" style="left:43.33%"></b><em style="left:43.33%">98</em></div><div class="num">1,975</div><div class="num">2,016 <span class="cnt">(12)</span></div><div class="cmp"><span class="rep">좋은느낌 · 쏘피 · 순수한면</span><span class="cap">8개 브랜드 · 12개 라인 · 1,817~2,500원</span></div></div>
+<div class="pc-row"><div class="nm"><span>기본 8개입</span><small>유기농 순면</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:38.96%;width:18.83%"></i><i class="box" style="left:43.10%;width:8.67%"></i><b class="dot lo" style="left:36.67%"></b><em style="left:36.67%">86</em></div><div class="num">1,738</div><div class="num">2,016 <span class="cnt">(12)</span></div><div class="cmp"><span class="rep">좋은느낌 · 쏘피 · 순수한면</span><span class="cap">8개 브랜드 · 12개 라인 · 1,817~2,500원</span></div></div>
+<div class="pc-row"><div class="nm"><span>에어리쿨 4개입</span></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:38.96%;width:18.83%"></i><i class="box" style="left:43.10%;width:8.67%"></i><b class="dot hi" style="left:46.67%"></b><em style="left:46.67%">104</em></div><div class="num">2,100</div><div class="num">2,016 <span class="cnt">(12)</span></div><div class="cmp"><span class="rep">좋은느낌 · 쏘피 · 순수한면</span><span class="cap">8개 브랜드 · 12개 라인 · 1,817~2,500원</span></div></div>
+<div class="pc-group"><div class="pc-gt"><strong>라이너</strong><span>규격별 비교 (유기농 기본 B 기준)</span></div></div>
+<div class="pc-row"><div class="nm"><span>기본 레귤러 20개입</span></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:29.19%;width:30.50%"></i><i class="box" style="left:36.82%;width:15.25%"></i><b class="dot hi" style="left:59.44%"></b><em style="left:59.44%">127</em></div><div class="num">275</div><div class="num">B 216 <span class="cnt">(2)</span></div><div class="cmp"><span class="rep">좋은느낌 · 프리너</span><span class="cap">2개 브랜드 · 2개 라인 · 157~275원</span></div></div>
+<div class="pc-row"><div class="nm"><span>기본 롱 18개입</span></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:27.54%;width:28.61%"></i><i class="box" style="left:32.22%;width:17.78%"></i><b class="dot hi" style="left:56.67%"></b><em style="left:56.67%">122</em></div><div class="num">306</div><div class="num">B 250 <span class="cnt">(5)</span></div><div class="cmp"><span class="rep">예지미인 · 프리너 · 라네이처</span><span class="cap">5개 브랜드 · 5개 라인 · 174~303원</span></div></div>
+<div class="pc-row"><div class="nm"><span>기본 슈퍼롱 18개입</span></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:29.65%;width:62.26%"></i><i class="box" style="left:37.05%;width:31.13%"></i><b class="dot hi" style="left:68.89%"></b><em style="left:68.89%">144</em></div><div class="num">306</div><div class="num">B 212 <span class="cnt">(3)</span></div><div class="cmp"><span class="rep">좋은느낌 · 순수한면 · 오드리선</span><span class="cap">3개 브랜드 · 3개 라인 · 156~393원</span></div></div>
+<div class="pc-row"><div class="nm"><span>초슬림 70매</span><small>소재 무관 슬림 라이너와 비교</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:14.44%;width:42.78%"></i><i class="box" style="left:38.89%;width:10.56%"></i><b class="dot lo" style="left:25.56%"></b><em style="left:25.56%">66</em></div><div class="num">120</div><div class="num">슬림 183 <span class="cnt">(7)</span></div><div class="cmp"><span class="rep">예지미인 · 시크릿데이 · 순수한면</span><span class="cap">6개 브랜드 · 7개 라인 · 소재 무관(부직포·순면 포함)</span></div></div>
+<div class="pc-group"><div class="pc-gt"><strong>탐폰</strong></div></div>
+<div class="pc-row"><div class="nm"><span>이지플러스 16개입</span><small>등급 구분 없이 전체 비교</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:25.93%;width:28.41%"></i><i class="box" style="left:39.04%;width:5.92%"></i><b class="dot mid" style="left:44.44%"></b><em style="left:44.44%">100</em></div><div class="num">900</div><div class="num">900 <span class="cnt">(9)</span></div><div class="cmp"><span class="rep">좋은느낌 · 템포 · 유기농본</span><span class="cap">6개 브랜드 · 9개 라인 · 600~1,060원</span></div></div>
+<div class="pc-group"><div class="pc-gt"><strong>오버나이트</strong></div></div>
+<div class="pc-row"><div class="nm"><span>기본 오버나이트 8개입</span></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:31.55%;width:30.47%"></i><i class="box" style="left:35.01%;width:17.98%"></i><b class="dot hi" style="left:74.44%"></b><em style="left:74.44%">154</em></div><div class="num">1,050</div><div class="num">B 684 <span class="cnt">(6)</span></div><div class="cmp"><span class="rep">유기농본 · 좋은느낌 · 예지미인</span><span class="cap">5개 브랜드 · 6개 라인 · 525~900원</span></div></div>
+<div class="pc-row"><div class="nm"><span>기본 슈퍼롱 6개입</span></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:32.07%;width:16.41%"></i><i class="box" style="left:37.43%;width:10.01%"></i><b class="dot hi" style="left:73.33%"></b><em style="left:73.33%">152</em></div><div class="num">1,400</div><div class="num">B 921 <span class="cnt">(6)</span></div><div class="cmp"><span class="rep">해피문데이 · 좋은느낌 · 이브네</span><span class="cap">6개 브랜드 · 6개 라인 · 716~988원</span></div></div>
+<div class="pc-row"><div class="nm"><span>올그린 슈퍼롱 6개입</span><small>친환경 비교군 없어 B 비교</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:32.07%;width:16.41%"></i><i class="box" style="left:37.43%;width:10.01%"></i><b class="dot hi" style="left:78.33%"></b><em style="left:78.33%">161</em></div><div class="num">1,483</div><div class="num">B 921 <span class="cnt">(6)</span></div><div class="cmp"><span class="rep">해피문데이 · 좋은느낌 · 이브네</span><span class="cap">6개 브랜드 · 6개 라인 · 716~988원</span></div></div>
+<div class="pc-row"><div class="nm"><span>무표백 오버나이트 8개입 ※</span><small>A 비교군 없어 B 비교</small></div><div class="trk"><i class="band" style="left:44.44%;width:11.11%"></i><i class="gl" style="left:0.00%"></i><i class="gl" style="left:11.11%"></i><i class="gl" style="left:22.22%"></i><i class="gl" style="left:33.33%"></i><i class="gl mid" style="left:44.44%"></i><i class="gl" style="left:55.56%"></i><i class="gl" style="left:66.67%"></i><i class="gl" style="left:77.78%"></i><i class="gl" style="left:88.89%"></i><i class="gl" style="left:100.00%"></i><i class="wh" style="left:31.55%;width:30.47%"></i><i class="box" style="left:35.01%;width:17.98%"></i><b class="dot ref" style="left:53.89%"></b><em style="left:53.89%">117</em></div><div class="num">800</div><div class="num">B 684 <span class="cnt">(6)</span></div><div class="cmp"><span class="rep">유기농본 · 좋은느낌 · 예지미인</span><span class="cap">5개 브랜드 · 6개 라인 · 525~900원</span></div></div>
+<div class="pc-row axis"><div></div><div class="ax"><span style="left:0.00%">20</span><span style="left:11.11%">40</span><span style="left:22.22%">60</span><span style="left:33.33%">80</span><span style="left:44.44%">100</span><span style="left:55.56%">120</span><span style="left:66.67%">140</span><span style="left:77.78%">160</span><span style="left:88.89%">180</span><span style="left:100.00%">200</span></div><div></div><div></div><div></div></div>
+  </div></div>
+  <p class="cap">비교 중앙값 옆 괄호는 경쟁 라인 수. 라엘은 공용 채널 정가 기준. 대표 브랜드는 비교군 안에서 매당단가가 중앙값에 가까운 순. 비교군은 총 12개, 26개 브랜드 · 82개 경쟁 라인(생리대는 중형 기준). 경쟁 라인이 2~9개로 적은 그룹은 방향성 위주로 해석. 초슬림 비교군은 소재 무관 슬림 라이너 7개(유기농 아닌 제품 포함)로, 분포는 기존 차트 값 사용. 올그린은 친환경 비교군이 없어 B(유기농 기본)와 비교. 빈 점(참고)은 해당 등급 비교군이 없어 다른 등급과 비교한 값. 실판매가·행사가는 미반영.</p>
+
+  <div class="callout">
+    <p><strong>시사점</strong></p>
+    <ul>
+      <li><strong>생리대 주력 라인은 이미 고가대.</strong> 민트 117 · 에어리쿨 130 · 올그린 145로 원칙 범위(100~120) 상단이거나 초과. 원가가 12~17% 올랐지만, 정가를 그대로 10% 올리면 민트 129, 올그린 160 수준이 되어 경쟁 대비 격차가 더 벌어짐.</li>
+      <li><strong>인상 여력이 큰 라인:</strong> 생리대 무표백(89), 입는오버나이트 기본·무표백(82~98). 입는오버나이트는 매출 16%로 비중도 커서 인상 효과가 큼.</li>
+      <li><strong>오버나이트는 152~161로 가장 비싼 구간.</strong> 추가 인상 시 경쟁 이탈 위험이 가장 높아 동결 또는 소폭 후보.</li>
+      <li>라이너 기본은 122~144로 고가대지만 비교군이 2~5개로 얇음. 초슬림(66)은 유기농 아닌 제품까지 포함한 비교라 실제 위치는 더 높을 수 있음.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">1-2</span>라인별 가격 위계</h3>
+    <p>매당 정가 기준. 각 카테고리 안에서 위가 가장 비싸며, 진한 막대가 최상위. 막대 길이는 카테고리 내 최상위 대비 비율.</p>
+  </div>
+  <div class="hier">
+    <div class="hc"><div class="hh"><strong>생리대</strong><span>중형 / 대형 (원/매) · 막대는 대형 기준</span></div><div class="hr"><span class="hn">프리미엄</span><span class="hb"><i class="top" style="width:100.0%"></i></span><span class="hv">900 / 900</span></div><div class="hr"><span class="hn">올그린</span><span class="hb"><i class="" style="width:98.9%"></i></span><span class="hv">742 / 890</span></div><div class="hr"><span class="hn">에어리쿨</span><span class="hb"><i class="" style="width:87.0%"></i></span><span class="hv">671 / 783</span></div><div class="hr"><span class="hn">민트</span><span class="hb"><i class="" style="width:77.8%"></i></span><span class="hv">600 / 700</span></div><div class="hr"><span class="hn">무표백</span><span class="hb"><i class="" style="width:59.2%"></i></span><span class="hv">457 / 533</span></div><p class='hnote'>프리미엄은 12개입 기준</p></div><div class="hc"><div class="hh"><strong>입는오버나이트</strong><span>원/개</span></div><div class="hr"><span class="hn">에어리쿨 4개입</span><span class="hb"><i class="top" style="width:100.0%"></i></span><span class="hv">2,100</span></div><div class="hr"><span class="hn">유기농 4개입</span><span class="hb"><i class="" style="width:94.0%"></i></span><span class="hv">1,975</span></div><div class="hr"><span class="hn">유기농 8개입</span><span class="hb"><i class="" style="width:82.8%"></i></span><span class="hv">1,738</span></div><div class="hr"><span class="hn">무표백 6개입</span><span class="hb"><i class="" style="width:78.6%"></i></span><span class="hv">1,650</span></div><p class='hnote'>경쟁 입는오버나이트 중앙값 2,016</p></div><div class="hc"><div class="hh"><strong>라이너</strong><span>원/매</span></div><div class="hr"><span class="hn">일반 롱·슈퍼롱</span><span class="hb"><i class="top" style="width:100.0%"></i></span><span class="hv">306</span></div><div class="hr"><span class="hn">일반 레귤러</span><span class="hb"><i class="" style="width:89.9%"></i></span><span class="hv">275</span></div><div class="hr"><span class="hn">초슬림</span><span class="hb"><i class="" style="width:39.2%"></i></span><span class="hv">120</span></div><p class='hnote'>일반 라이너는 20·18개입 팩 기준</p></div><div class="hc"><div class="hh"><strong>오버나이트 (생리대형)</strong><span>원/매</span></div><div class="hr"><span class="hn">올그린 슈퍼롱</span><span class="hb"><i class="top" style="width:100.0%"></i></span><span class="hv">1,483</span></div><div class="hr"><span class="hn">민트 슈퍼롱</span><span class="hb"><i class="" style="width:94.4%"></i></span><span class="hv">1,400</span></div><div class="hr"><span class="hn">민트 오버나이트</span><span class="hb"><i class="" style="width:70.8%"></i></span><span class="hv">1,050</span></div><div class="hr"><span class="hn">무표백 오버나이트</span><span class="hb"><i class="" style="width:53.9%"></i></span><span class="hv">800</span></div></div><div class="hc"><div class="hh"><strong>탐폰</strong><span>원/개</span></div><div class="hr"><span class="hn">이지플러스</span><span class="hb"><i class="top" style="width:100.0%"></i></span><span class="hv">900</span></div><p class='hnote'>단일 라인이라 위계 비교 없음. 경쟁 중앙값 900</p></div>
+  
+  </div>
+
+  <div class="callout">
+    <p><strong>시사점</strong></p>
+    <ul>
+      <li>생리대는 무표백에서 프리미엄까지 단계적으로 올라가며, 최고·최저 격차가 1.7~2.0배.</li>
+      <li>입는오버나이트는 라인 간 격차가 1.3배로 좁고, 에어리쿨(2,100)과 유기농 4개입(1,975)이 6% 차이로 거의 붙어 있음.</li>
+      <li>라이너는 일반과 초슬림 격차가 2.6배로 가장 큼.</li>
+    </ul>
+  </div>
+
+  <div class="src">
+    <strong>데이터 출처</strong>
+    <span><code>생리대 라인 비교</code> 등급 × 사이즈 분포 · <code>생리대 경쟁 라인</code> 등급별 라인</span>
+    <span><code>경쟁 라인</code> 입는오버나이트 · 라이너 · 탐폰 · 오버나이트</span>
+    <span><code>제외 행</code> 초슬림 비교용 슬림 라이너</span>
+  </div>
+</section>
+
+<hr>
+
+<!-- 2 배분 -->
+<section id="s2">
+  <div class="sec-head"><span class="sec-no">2</span><h2>가격 인상폭 및 배분 결정</h2><span class="chip ready">매출 구조 반영</span></div>
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">2-1</span>매출 구조 (라인 × 채널)</h3>
+    <p>2026 Period Care 매출(NSV) 304.6억, 수량 675만 개 기준. 비중은 Period Care 합계 대비, 채널 믹스는 각 라인 매출 내 비중.</p>
+  </div>
+  <div class="legend">
+    <span><i class="sw c0"></i>Wholesale</span><span><i class="sw c1"></i>D2C</span><span><i class="sw c2"></i>Others</span><span><i class="sw c3"></i>Global</span>
+  </div>
+  <div class="tbl"><table class="mixtbl">
+    <thead><tr><th>라인</th><th class="num">NSV(억)</th><th class="num">매출 비중</th><th class="num">수량</th><th class="num">수량 비중</th><th class="num">개당 NSV(원)</th><th>채널 믹스</th><th class="num">WS</th><th class="num">D2C</th><th class="num">Others</th></tr></thead>
+    <tbody>
+<tr><td>생리대 (민트)</td><td class="num">102.9</td><td class="num">33.8%</td><td class="num">2,017,894</td><td class="num">29.9%</td><td class="num">5,101</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:49.9%"></span><span class="seg c1" style="width:30.0%"></span><span class="seg c2" style="width:20.0%"></span><span class="seg c3" style="width:0.1%"></span></div></td><td class="num">50%</td><td class="num">30%</td><td class="num">20%</td></tr>
+<tr><td>입는오버나이트</td><td class="num">49.2</td><td class="num">16.2%</td><td class="num">1,212,690</td><td class="num">18.0%</td><td class="num">4,061</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:62.1%"></span><span class="seg c1" style="width:23.5%"></span><span class="seg c2" style="width:14.3%"></span><span class="seg c3" style="width:0.1%"></span></div></td><td class="num">62%</td><td class="num">24%</td><td class="num">14%</td></tr>
+<tr><td>라이너</td><td class="num">46.0</td><td class="num">15.1%</td><td class="num">1,157,139</td><td class="num">17.1%</td><td class="num">3,972</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:56.0%"></span><span class="seg c1" style="width:27.8%"></span><span class="seg c2" style="width:15.8%"></span><span class="seg c3" style="width:0.3%"></span></div></td><td class="num">56%</td><td class="num">28%</td><td class="num">16%</td></tr>
+<tr><td>생리대 (무표백)</td><td class="num">30.9</td><td class="num">10.1%</td><td class="num">692,594</td><td class="num">10.3%</td><td class="num">4,455</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:39.6%"></span><span class="seg c1" style="width:45.9%"></span><span class="seg c2" style="width:14.4%"></span><span class="seg c3" style="width:0.1%"></span></div></td><td class="num">40%</td><td class="num">46%</td><td class="num">14%</td></tr>
+<tr><td>생리대 (올그린)</td><td class="num">28.7</td><td class="num">9.4%</td><td class="num">837,891</td><td class="num">12.4%</td><td class="num">3,421</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:55.7%"></span><span class="seg c1" style="width:25.6%"></span><span class="seg c2" style="width:18.6%"></span></div></td><td class="num">56%</td><td class="num">26%</td><td class="num">19%</td></tr>
+<tr><td>생리대 (에어리쿨)</td><td class="num">15.3</td><td class="num">5.0%</td><td class="num">315,855</td><td class="num">4.7%</td><td class="num">4,834</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:55.4%"></span><span class="seg c1" style="width:40.0%"></span><span class="seg c2" style="width:4.5%"></span><span class="seg c3" style="width:0.0%"></span></div></td><td class="num">55%</td><td class="num">40%</td><td class="num">5%</td></tr>
+<tr><td>입는오버나이트 (에어리쿨)</td><td class="num">9.5</td><td class="num">3.1%</td><td class="num">219,578</td><td class="num">3.3%</td><td class="num">4,340</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:36.6%"></span><span class="seg c1" style="width:57.4%"></span><span class="seg c2" style="width:6.0%"></span><span class="seg c3" style="width:0.0%"></span></div></td><td class="num">37%</td><td class="num">57%</td><td class="num">6%</td></tr>
+<tr><td>입는오버나이트 (무표백)</td><td class="num">7.3</td><td class="num">2.4%</td><td class="num">146,975</td><td class="num">2.2%</td><td class="num">4,954</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:43.3%"></span><span class="seg c1" style="width:45.5%"></span><span class="seg c2" style="width:11.1%"></span><span class="seg c3" style="width:0.1%"></span></div></td><td class="num">43%</td><td class="num">45%</td><td class="num">11%</td></tr>
+<tr><td>세트 (민트)</td><td class="num">5.4</td><td class="num">1.8%</td><td class="num">36,328</td><td class="num">0.5%</td><td class="num">14,745</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:86.0%"></span><span class="seg c1" style="width:3.6%"></span><span class="seg c2" style="width:10.3%"></span><span class="seg c3" style="width:0.2%"></span></div></td><td class="num">86%</td><td class="num">4%</td><td class="num">10%</td></tr>
+<tr><td>탐폰</td><td class="num">4.4</td><td class="num">1.4%</td><td class="num">66,443</td><td class="num">1.0%</td><td class="num">6,618</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:36.6%"></span><span class="seg c1" style="width:41.3%"></span><span class="seg c2" style="width:21.2%"></span><span class="seg c3" style="width:0.8%"></span></div></td><td class="num">37%</td><td class="num">41%</td><td class="num">21%</td></tr>
+<tr class="minor"><td>생리대 (프리미엄)</td><td class="num">2.6</td><td class="num">0.9%</td><td class="num">43,384</td><td class="num">0.6%</td><td class="num">6,095</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:11.2%"></span><span class="seg c1" style="width:18.6%"></span><span class="seg c2" style="width:69.2%"></span><span class="seg c3" style="width:1.0%"></span></div></td><td class="num">11%</td><td class="num">19%</td><td class="num">69%</td></tr>
+<tr class="minor"><td>세트 (올그린)</td><td class="num">1.6</td><td class="num">0.5%</td><td class="num">1,890</td><td class="num">0.0%</td><td class="num">85,827</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:100.0%"></span></div></td><td class="num">100%</td><td class="num">0%</td><td class="num">0%</td></tr>
+<tr class="minor"><td>세트 (무표백)</td><td class="num">0.4</td><td class="num">0.1%</td><td class="num">951</td><td class="num">0.0%</td><td class="num">43,131</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:89.5%"></span><span class="seg c2" style="width:10.5%"></span></div></td><td class="num">90%</td><td class="num">0%</td><td class="num">10%</td></tr>
+<tr class="minor"><td>히팅패치</td><td class="num">0.2</td><td class="num">0.1%</td><td class="num">3,261</td><td class="num">0.0%</td><td class="num">5,809</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:11.1%"></span><span class="seg c1" style="width:41.4%"></span><span class="seg c2" style="width:47.6%"></span></div></td><td class="num">11%</td><td class="num">41%</td><td class="num">48%</td></tr>
+<tr class="minor"><td>세트 (프리미엄)</td><td class="num">0.2</td><td class="num">0.1%</td><td class="num">237</td><td class="num">0.0%</td><td class="num">73,546</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:2.9%"></span><span class="seg c2" style="width:97.1%"></span></div></td><td class="num">3%</td><td class="num">0%</td><td class="num">97%</td></tr>
+<tr class="minor"><td>리유저블</td><td class="num">0.1</td><td class="num">0.0%</td><td class="num">904</td><td class="num">0.0%</td><td class="num">13,698</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:20.5%"></span><span class="seg c1" style="width:74.4%"></span><span class="seg c2" style="width:4.6%"></span><span class="seg c3" style="width:0.5%"></span></div></td><td class="num">21%</td><td class="num">74%</td><td class="num">5%</td></tr>
+<tr class="total"><td>Period Care 합계</td><td class="num">304.6</td><td class="num">100%</td><td class="num">6,754,014</td><td class="num">100%</td><td class="num">4,511</td><td class="mixcell"><div class="mix"><span class="seg c0" style="width:52.4%"></span><span class="seg c1" style="width:31.0%"></span><span class="seg c2" style="width:16.5%"></span><span class="seg c3" style="width:0.1%"></span></div></td><td class="num">52%</td><td class="num">31%</td><td class="num">17%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="cap">출처: 2026 제품별·채널별 매출/수량 (기준 기간 확인 필요). 원본 %는 전사 기준이며, 여기서는 Period Care 합계(전사 NSV의 86.7%) 기준으로 재계산. 라이너 중 초슬림이 매출 40%, 수량은 WS 45% · D2C 15% · Others 24%.</p>
+
+  <div class="callout">
+    <p><strong>시사점</strong></p>
+    <ul>
+      <li><strong>민트 · 입는오버나이트 · 라이너 3개 라인이 매출의 65%.</strong> 인상 효과와 물량 리스크는 사실상 이 세 라인이 결정하므로, 차등 인상 시 이 라인의 인상폭을 먼저 정해야 함.</li>
+      <li><strong>홀세일이 매출 52%, 수량 65%.</strong> 이익 보전의 절반 이상이 유통사 공급가 협상에 달려 있어, 정가/공급가 판단(3번 축)의 핵심 근거.</li>
+      <li>입는오버나이트(기본)는 홀세일 62%로 협상 영향이 가장 크고, 에어리쿨·무표백 라인은 D2C 비중이 45~57%로 자사 채널에서 정가를 직접 조정할 여지가 큼.</li>
+      <li>프리미엄은 Others 채널이 69%이고 원가 인상도 5%대여서, 동결 또는 소폭 그룹(C) 후보.</li>
+      <li>세트(민트)는 홀세일 86%로, 번들 가격은 홀세일 협상 안에서 함께 다뤄야 함.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">2-2</span>가격 인상에 따른 채널별 예상 리스크</h3>
+    <p>영업팀 채널별 요청 사항 및 리스크</p>
+  </div>
+  <div class="callout">
+    <ul>
+      <li><strong>공통 요청:</strong> 저단가·대용량 기획팩 병행, 시장가 확인 후 인상(분할/일괄), 행사·쿠폰 지원</li>
+      <li><strong>공통 리스크:</strong> <em class="rk">고번들·저단가 채널의 구매 전환율·매출 하락</em></li>
+      <li><strong>채널 특이:</strong> 하이퍼 <em class="rk">27년 연간계약 POG OUT 가능성</em> · 다이소 <em class="rk">쿠팡 매칭 이슈</em> · CVS 담당자·홈쇼핑 의견 미입력</li>
+    </ul>
+  </div>
+  <div class="tbl"><table class="chtbl">
+    <thead><tr><th>채널</th><th>핵심 요청 · 입장</th><th>주요 리스크</th></tr></thead>
+    <tbody><tr><td class="ln">겟라엘</td><td>공식몰 대용량 기획팩, 소비자가 2회 분할 인상</td><td>고번들 체감가↑ 전환율↓ (민트 10팩 +8천원)</td></tr><tr><td class="ln">네이버</td><td>저단가 대용량 기획팩 출시와 인상 병행</td><td>고번들 D2C 특성상 체감도 높음</td></tr><tr><td class="ln">쿠팡</td><td>시장가 조정 확인 후 공급가 논의</td><td>GM 계약, 공급가 인상 이력 없음</td></tr><tr><td class="ln">하이퍼</td><td>밴더 의견: 인상폭 과다, MD 의견 확인 후 재설정</td><td><em class="rk">27년 연간계약 시 POG OUT 가능성</em></td></tr><tr><td class="ln">CVS</td><td>SKU별 가격 검토 (기존 대비 10%↑ 소가 운영 중)</td><td>행사 참여율 저조, 타사 대비 고단가</td></tr><tr><td class="ln">컬리</td><td>시장가 확인 후 분할/일괄 논의, 부담쿠폰</td><td>MD 민감도 높음, 구좌 확보 하락</td></tr><tr><td class="ln">11번가</td><td>저단량·1만원대 구성 지속 요청 예상</td><td>저가형 채널, 매출 하락</td></tr><tr><td class="ln">이베이</td><td>1개 SKU라도 저단가 확보 요청 예상</td><td>타사와 가격 격차, 매출 하락</td></tr><tr><td class="ln">홈쇼핑</td><td><span class="ph">(미입력)</span></td><td><span class="ph">—</span></td></tr><tr><td class="ln">카카오</td><td>MD 사전협의 시 인상 가능</td><td>라이브 의존 심화, 가격 격차 확대</td></tr><tr><td class="ln">다이소</td><td>공급가 조정 어려움, 전용 제품 개발 필요</td><td><em class="rk">쿠팡 매칭 이슈</em>, 수수료 조정 어려움</td></tr></tbody>
+  </table></div>
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">2-3</span>가격 인상 배분 기준</h3>
+    <p>라인별로 네 가지 기준을 고/중/저로 평가해 A(적극 인상) · B(중간 인상) · C(동결/소폭)로 그루핑.</p>
+  </div>
+  <div class="callout"><p><strong>인상 기준:</strong> 원가 보전을 기본으로 하되, 경쟁 대비 인상 여력이 큰 라인은 원가 인상폭이 낮아도 적극 인상 (예: 초슬림 라이너).</p></div>
+  <div class="tbl"><table class="score">
+    <thead><tr>
+      <th>라인</th>
+      <th>인상 여력<br><span class="hint">포지션 지수 · 고 = 유리</span></th>
+      <th>이탈 위험<br><span class="hint">가격 민감도 · 고 = 불리</span></th>
+      <th>보전 필요<br><span class="hint">원가 상승 · 고 = 인상 필요</span></th>
+      <th>매출 영향<br><span class="hint">Period Care 비중</span></th>
+      <th>전략 제약 / 비고</th><th>그룹</th><th>인상폭</th>
+    </tr></thead>
+    <tbody><tr><td class="ln">입는오버나이트</td><td><span class="lv fav">고</span><small>86~98</small></td><td><span class="lv neu">중</span><small>자사 경쟁력 있고 카테고리 성장 중</small></td><td><span class="lv fav">고</span><small>E&amp;W 12~15%</small></td><td><span class="lv plain">고</span><small>16.2% · 2위</small></td><td class="nt"></td><td><span class="grpchip gA">A</span></td><td class="ph">—</td></tr><tr><td class="ln">초슬림 라이너</td><td><span class="lv fav">고</span><small>66</small></td><td><span class="lv fav">저</span><small>유기농 초슬림 자사 유일, 가장 얇은 제품</small></td><td><span class="lv unf">저</span><small>슈사오 8.5%</small></td><td><span class="lv plain">중</span><small>약 6.0%</small></td><td class="nt">원가 인상은 낮지만 여력 기반 적극 인상</td><td><span class="grpchip gA">A</span></td><td class="ph">—</td></tr><tr class="gstart"><td class="ln">라이너 (초슬림 제외)</td><td><span class="lv unf">저</span><small>122~144 · 비교군 2~5개</small></td><td><span class="lv neu">중</span><small>자사 라이너 다양, 생리대보다 경쟁 덜함</small></td><td><span class="lv fav">고</span><small>CHL 15.5%</small></td><td><span class="lv plain">고</span><small>약 9.1%</small></td><td class="nt"></td><td><span class="grpchip gB">B</span></td><td class="ph">—</td></tr><tr><td class="ln">생리대 (올그린)</td><td><span class="lv unf">저</span><small>145 · 프리미엄 포지션</small></td><td><span class="lv neu">중</span></td><td><span class="lv fav">고</span><small>SSK 16%</small></td><td><span class="lv plain">고</span><small>9.4%</small></td><td class="nt"></td><td><span class="grpchip gB">B</span></td><td class="ph">—</td></tr><tr><td class="ln">입는오버나이트 (무표백)</td><td><span class="lv fav">고</span><small>82</small></td><td><span class="lv neu">중</span><small>입는 오버나이트 민감도는 낮으나 무표백</small></td><td><span class="lv fav">고</span><small>E&amp;W</small></td><td><span class="lv plain">저</span><small>2.4%</small></td><td class="nt">무표백 포지셔닝 유지 필요</td><td><span class="grpchip gB">B</span></td><td class="ph">—</td></tr><tr><td class="ln">생리대 (프리미엄)</td><td><span class="lv neu">중</span><small>110</small></td><td><span class="lv fav">저</span><small>Others 채널 69%, 물량 작음</small></td><td><span class="lv unf">저</span><small>SSK 5%</small></td><td><span class="lv plain">저</span><small>0.9%</small></td><td class="nt">원가 인상폭(5%)이 작아 인상 폭도 소폭에 그침</td><td><span class="grpchip gB">B</span></td><td class="ph">—</td></tr><tr class="gstart"><td class="ln">생리대 (민트)</td><td><span class="lv unf">저</span><small>117</small></td><td><span class="lv unf">고</span><small>대표 SKU, 번들 비중·재구매 높음</small></td><td><span class="lv fav">고</span><small>SSK</small></td><td><span class="lv plain">고</span><small>33.8% · 1위</small></td><td class="nt">보전 수단 별도: 공급가 일부 반영, 2027 리뉴얼 시 입수량 조정</td><td><span class="grpchip gC">C</span></td><td class="ph">—</td></tr><tr><td class="ln">생리대 (무표백)</td><td><span class="lv fav">고</span><small>89</small></td><td><span class="lv unf">고</span><small>자사 엔트리 라인</small></td><td><span class="lv fav">고</span></td><td><span class="lv plain">고</span><small>10.1%</small></td><td class="nt">엔트리 라인 최저가 유지 (전략 제약)</td><td><span class="grpchip gC">C</span></td><td class="ph">—</td></tr><tr><td class="ln">생리대 (에어리쿨)</td><td><span class="lv unf">저</span><small>130 · 프리미엄 포지션</small></td><td><span class="lv neu">중</span></td><td><span class="lv fav">고</span><small>SSK 13%</small></td><td><span class="lv plain">중</span><small>5.0%</small></td><td class="nt">신제품: 출시 후 1년 가격 동결</td><td><span class="grpchip gC">C</span></td><td class="ph">—</td></tr><tr><td class="ln">입는오버나이트 (에어리쿨)</td><td><span class="lv neu">중</span><small>104 · 입는 오버나이트 내 프리미엄</small></td><td><span class="lv neu">중</span><small>자사 경쟁력, 카테고리 성장 중</small></td><td><span class="lv fav">고</span><small>E&amp;W 12.5~14.0%</small></td><td><span class="lv plain">중</span><small>3.1%</small></td><td class="nt">신제품: 출시 후 1년 가격 동결</td><td><span class="grpchip gC">C</span></td><td class="ph">—</td></tr><tr><td class="ln">탐폰</td><td><span class="lv unf">저</span><small>100 · 시장가 포지션 신제품</small></td><td><span class="lv unf">고</span><small>신제품 진입 가격 유지</small></td><td><span class="lv unf">인상 없음</span><small>원가 인상 목록에 없음</small></td><td><span class="lv plain">저</span><small>1.4%</small></td><td class="nt">신제품: 출시 후 1년 가격 동결</td><td><span class="grpchip gC">C</span></td><td class="ph">—</td></tr></tbody>
+  </table></div>
+  <p class="cap">인상 여력은 1번 차트의 같은 등급 경쟁 중앙값 대비 지수. 매출 영향 기준: 고 9% 이상 / 중 3~9% / 저 3% 미만. 라이너 매출은 초슬림(라이너 매출의 40%)을 분리해 계산. 무표백은 지수상 여력이 있으나 엔트리 가격 유지를 위해 C로 분류. 신제품(에어리쿨 생리대·입는오버나이트, 탐폰)은 출시 후 1년간 가격을 동결하고, 이후 반기 가격 검토에서 재평가.</p>
+
+  <div class="grpsum">
+    <div class="gs"><span class="grpchip gA">A</span><div><strong>적극 인상</strong><span>입는오버나이트, 초슬림 라이너</span></div><b><small>매출 비중</small>약 22%</b></div>
+    <div class="gs"><span class="grpchip gB">B</span><div><strong>중간 인상</strong><span>라이너, 올그린, 입는오버나이트 무표백, 프리미엄</span></div><b><small>매출 비중</small>약 22%</b></div>
+    <div class="gs"><span class="grpchip gC">C</span><div><strong>동결·소폭</strong><span>민트, 무표백(엔트리), 에어리쿨·입는 에어리쿨·탐폰(신제품)</span></div><b><small>매출 비중</small>약 53%</b></div>
+  </div>
+  <p class="cap">매출 비중은 그룹별 Period Care 매출(NSV) 비중 합계 (세트·기타 품목 제외).</p>
+
+  <div class="callout">
+    <p><strong>쟁점: 민트 C 분류</strong></p>
+    <ul>
+      <li>민트를 C로 두면 매출의 약 53%가 동결·소폭 그룹이 되고, 그 대부분은 원가가 크게 오른 라인. A·B 그룹(약 44%)만으로 전체 원가 인상분을 메우기 어려움.</li>
+      <li>민트는 소비자가 포지션(117)을 지키되, 공급가 일부 반영과 2027 패키지 리뉴얼 시 입수량 조정으로 보전하는 방안을 함께 검토.</li>
+    </ul>
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 3 시뮬레이션 -->
+<section id="s3">
+  <div class="sec-head"><span class="sec-no">3</span><h2>가격 인상 시뮬레이션 안</h2><span class="chip todo">작성 예정</span></div>
+
+  <div class="box"><h3 class="sub"><span class="subno">3-1</span>인상 대상 및 방식</h3></div>
+  <p class="lede">정가 인상을 기본안으로 놓고 인상 방식 3가지를 비교한다. 공급가만 인상하는 방안은 대안으로 함께 검토.</p>
+
+  <div class="tree">
+    <div class="t-step"><span class="stepno">1단계</span>인상 대상</div>
+    <div class="t-paths2">
+      <div class="path">
+        <div class="pnode rrp">
+          <span class="ptag">기본안</span>
+          <h4>정가 인상</h4>
+          <p>소비자 정가를 올리고, 공급가도 정가에 맞춰 올림. 유통 마진율은 유지.</p>
+          <dl>
+            <div><dt>보전 범위</dt><dd>전 채널 (홀세일 + D2C + Others)</dd></div>
+            <div><dt>경쟁 포지션</dt><dd>매당단가 지수 상승. 고가대 라인 격차 확대</dd></div>
+            <div><dt>주요 리스크</dt><dd>판매량 감소, 고가대 라인 이탈</dd></div>
+          </dl>
+        </div>
+        <div class="t-step sm"><span class="stepno">2단계</span>인상 방식</div>
+        <div class="leaves"><div class="leaf"><strong>라인별 차등</strong><span class="ld">A 적극 · B 중간 · C 동결/소폭. 저가대(입는오버나이트·초슬림) 우선, 고가대·신제품·엔트리는 동결</span></div><div class="leaf"><strong>일괄 10%</strong><span class="ld">전 품목 10%. 민트 지수 117→129, 올그린 145→160으로 고가대 격차 확대</span></div><div class="leaf"><strong>일부 품목만</strong><span class="ld">인상 여력이 큰 라인부터 반영하고, 판매 추이 확인 후 후속</span></div></div>
+      </div>
+      <div class="vs" aria-hidden="true"><i></i><span>또는</span><i></i></div>
+      <div class="path alt">
+        <div class="pnode sup">
+          <span class="ptag">대안</span>
+          <h4>공급가만 인상</h4>
+          <p>소비자 정가는 그대로 두고, 유통사 공급가만 올림. 유통 마진이 줄어듦.</p>
+          <dl>
+            <div><dt>보전 범위</dt><dd>홀세일(매출 52%)만. D2C·자사 채널은 보전 없음</dd></div>
+            <div><dt>경쟁 포지션</dt><dd>소비자가 지수 변화 없음</dd></div>
+            <div><dt>주요 리스크</dt><dd>유통사 마진 축소 반발, 협상 장기화</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">3-2</span>인상 방식별 시뮬레이션</h3>
+    <p>A·B·C 그룹 인상폭을 입력하면 매출 비중 가중 평균 인상률과 매출 증분이 계산됩니다. 입력값은 예시이며 직접 바꿔볼 수 있습니다.</p>
+  </div>
+  <div class="grpkey" aria-label="그룹 구성">
+    <span class="gk"><span class="grpchip gA">A</span><b>적극</b>입는오버나이트·초슬림 <em>22%</em></span>
+    <span class="gk"><span class="grpchip gB">B</span><b>중간</b>라이너·올그린·입는 무표백·프리미엄 <em>22%</em></span>
+    <span class="gk"><span class="grpchip gC">C</span><b>동결·소폭</b>민트·무표백·에어리쿨·입는 에어리쿨·탐폰 <em>53%</em></span>
+  </div>
+  <div class="sims">
+    <div class="sim" data-sim="1">
+      <div class="sim-h"><strong>시뮬레이션 1안</strong><input class="sim-name" id="sim1-name" value="라인별 차등 인상" aria-label="1안 이름"></div>
+      <table class="simtbl"><thead><tr><th>그룹</th><th class="num">매출 비중</th><th class="num">인상폭</th><th class="num">증분(억)</th></tr></thead>
+      <tbody>
+        <tr><td><span class="grpchip gA">A</span></td><td class="num">22.2%</td><td class="num"><input type="number" id="sim1-A" data-g="A" value="15" step="0.5" min="0" max="50">%</td><td class="num" data-out="A">—</td></tr>
+        <tr><td><span class="grpchip gB">B</span></td><td class="num">21.7%</td><td class="num"><input type="number" id="sim1-B" data-g="B" value="10" step="0.5" min="0" max="50">%</td><td class="num" data-out="B">—</td></tr>
+        <tr><td><span class="grpchip gC">C</span></td><td class="num">53.5%</td><td class="num"><input type="number" id="sim1-C" data-g="C" value="0" step="0.5" min="0" max="50">%</td><td class="num" data-out="C">—</td></tr>
+      </tbody></table>
+      <div class="sim-out"><div><span>가중 평균 인상률</span><b data-out="avg">—</b></div><div><span>매출 증분</span><b data-out="sum">—</b></div></div>
+    </div>
+    <div class="sim" data-sim="2">
+      <div class="sim-h"><strong>시뮬레이션 2안</strong><input class="sim-name" id="sim2-name" value="일괄 10% 전품목 인상" aria-label="2안 이름"></div>
+      <table class="simtbl"><thead><tr><th>그룹</th><th class="num">매출 비중</th><th class="num">인상폭</th><th class="num">증분(억)</th></tr></thead>
+      <tbody>
+        <tr><td><span class="grpchip gA">A</span></td><td class="num">22.2%</td><td class="num"><input type="number" id="sim2-A" data-g="A" value="10" step="0.5" min="0" max="50">%</td><td class="num" data-out="A">—</td></tr>
+        <tr><td><span class="grpchip gB">B</span></td><td class="num">21.7%</td><td class="num"><input type="number" id="sim2-B" data-g="B" value="10" step="0.5" min="0" max="50">%</td><td class="num" data-out="B">—</td></tr>
+        <tr><td><span class="grpchip gC">C</span></td><td class="num">53.5%</td><td class="num"><input type="number" id="sim2-C" data-g="C" value="10" step="0.5" min="0" max="50">%</td><td class="num" data-out="C">—</td></tr>
+      </tbody></table>
+      <div class="sim-out"><div><span>가중 평균 인상률</span><b data-out="avg">—</b></div><div><span>매출 증분</span><b data-out="sum">—</b></div></div>
+    </div>
+    <div class="sim" data-sim="3">
+      <div class="sim-h"><strong>시뮬레이션 3안</strong><input class="sim-name" id="sim3-name" value="일부 품목 우선 · 추후 확대" aria-label="3안 이름"></div>
+      <table class="simtbl"><thead><tr><th>그룹</th><th class="num">매출 비중</th><th class="num">인상폭</th><th class="num">증분(억)</th></tr></thead>
+      <tbody>
+        <tr><td><span class="grpchip gA">A</span></td><td class="num">22.2%</td><td class="num"><input type="number" id="sim3-A" data-g="A" value="10" step="0.5" min="0" max="50">%</td><td class="num" data-out="A">—</td></tr>
+        <tr><td><span class="grpchip gB">B</span></td><td class="num">21.7%</td><td class="num"><input type="number" id="sim3-B" data-g="B" value="0" step="0.5" min="0" max="50">%</td><td class="num" data-out="B">—</td></tr>
+        <tr><td><span class="grpchip gC">C</span></td><td class="num">53.5%</td><td class="num"><input type="number" id="sim3-C" data-g="C" value="0" step="0.5" min="0" max="50">%</td><td class="num" data-out="C">—</td></tr>
+      </tbody></table>
+      <div class="sim-out"><div><span>가중 평균 인상률</span><b data-out="avg">—</b></div><div><span>매출 증분</span><b data-out="sum">—</b></div></div>
+    </div>
+  </div>
+  <p class="cap">가중 평균은 A·B·C 그룹 매출 비중 기준. 매출 증분 = 2026 Period Care NSV(304.6억) × 그룹 매출 비중 × 인상폭으로, 판매량 변화가 없고 인상분이 NSV에 그대로 반영된다고 가정한 단순 계산. 공급가만 인상하면 홀세일 비중(52%)만큼만 반영되고, 정가 인상은 물량 감소 가정이 추가로 필요.</p>
+  <script>
+  (function(){
+    var NSV=30464341523.6, SH={A:6762.8/30464.3,B:6616.3/30464.3,C:16297.6/30464.3};
+    function calc(card){
+      var tot=0, wsum=0, shsum=0;
+      ["A","B","C"].forEach(function(g){
+        var inp=card.querySelector('input[data-g="'+g+'"]'); var r=parseFloat(inp.value); if(isNaN(r)) r=0;
+        var inc=NSV*SH[g]*r/100; tot+=inc; wsum+=SH[g]*r; shsum+=SH[g];
+        card.querySelector('td[data-out="'+g+'"]').textContent=(inc/1e8).toFixed(1);
+      });
+      card.querySelector('[data-out="avg"]').textContent=(wsum/shsum).toFixed(1)+'%';
+      card.querySelector('[data-out="sum"]').textContent='+'+(tot/1e8).toFixed(1)+'억';
+    }
+    document.querySelectorAll('.sim').forEach(function(c){ calc(c); c.addEventListener('input',function(){calc(c)}); });
+  })();
+  </script>
+
+  
+
+  <div class="box">
+    <h3 class="sub"><span class="subno">3-3</span>대표 SKU 가격 변화 예시 (5% / 10% / 15% 인상)</h3>
+    <p>고번들 대표 SKU 4종. 정가는 100원 단위로 정리하고, 번들 상시 행사가는 현재 할인율을 그대로 적용.</p>
+  </div>
+  <div class="tbl"><table class="packtbl">
+    <thead><tr>
+      <th>제품</th><th>구분</th><th class="num">정가 (1팩)</th><th class="num">매당가</th>
+      <th class="num">번들 정상가 (8팩)</th><th class="num">번들 상시 행사가 (8팩)</th><th class="num">행사 매당가</th><th class="num">소비자 지불금액 증가<br><span class="hint">8팩 상시 행사가 기준</span></th><th class="num">경쟁 지수<br><span class="hint">현재 → 인상 후 · 1-1 기준</span></th>
+    </tr></thead>
+    <tbody><tr class="base"><td rowspan="4" class="pn"><strong>민트</strong><small>유기농 순면커버 중형 · 14매입</small></td><td><span class="rl">현재</span></td><td class="num">8,400</td><td class="num">600</td><td class="num">67,200</td><td class="num">47,040<small>정상가 대비 -70%</small></td><td class="num">420</td><td class="num">—</td><td class="num idx">117</td></tr><tr class="r5"><td><span class="rl">5% 인상</span></td><td class="num">8,800<small>계산 8,820 · 실제 +4.8%</small></td><td class="num">629</td><td class="num">70,400</td><td class="num">49,280<small>정상가 대비 -70%</small></td><td class="num">440</td><td class="num">+2,240</td><td class="num idx">117 → <b class='out'>123</b></td></tr><tr class="r10"><td><span class="rl">10% 인상</span></td><td class="num">9,200<small>계산 9,240 · 실제 +9.5%</small></td><td class="num">657</td><td class="num">73,600</td><td class="num">51,520<small>정상가 대비 -70%</small></td><td class="num">460</td><td class="num">+4,480</td><td class="num idx">117 → <b class='out'>128</b></td></tr><tr class="r15"><td><span class="rl">15% 인상</span></td><td class="num">9,700<small>계산 9,660 · 실제 +15.5%</small></td><td class="num">693</td><td class="num">77,600</td><td class="num">54,320<small>정상가 대비 -70%</small></td><td class="num">485</td><td class="num">+7,280</td><td class="num idx">117 → <b class='out'>135</b></td></tr><tr class="base"><td rowspan="4" class="pn"><strong>무표백</strong><small>무표백 순면커버 중형 · 14매입</small></td><td><span class="rl">현재</span></td><td class="num">6,400</td><td class="num">457</td><td class="num">51,200</td><td class="num">30,720<small>정상가 대비 -60%</small></td><td class="num">274</td><td class="num">—</td><td class="num idx">89</td></tr><tr class="r5"><td><span class="rl">5% 인상</span></td><td class="num">6,700<small>계산 6,720 · 실제 +4.7%</small></td><td class="num">479</td><td class="num">53,600</td><td class="num">32,160<small>정상가 대비 -60%</small></td><td class="num">287</td><td class="num">+1,440</td><td class="num idx">89 → <b class='in'>94</b></td></tr><tr class="r10"><td><span class="rl">10% 인상</span></td><td class="num">7,000<small>계산 7,040 · 실제 +9.4%</small></td><td class="num">500</td><td class="num">56,000</td><td class="num">33,600<small>정상가 대비 -60%</small></td><td class="num">300</td><td class="num">+2,880</td><td class="num idx">89 → <b class='in'>98</b></td></tr><tr class="r15"><td><span class="rl">15% 인상</span></td><td class="num">7,400<small>계산 7,360 · 실제 +15.6%</small></td><td class="num">529</td><td class="num">59,200</td><td class="num">35,520<small>정상가 대비 -60%</small></td><td class="num">317</td><td class="num">+4,800</td><td class="num idx">89 → <b class='in'>103</b></td></tr><tr class="base"><td rowspan="4" class="pn"><strong>입는오버나이트</strong><small>유기농 순면 커버 M · 4개입</small></td><td><span class="rl">현재</span></td><td class="num">7,900</td><td class="num">1,975</td><td class="num">63,200</td><td class="num">46,760<small>정상가 대비 -74%</small></td><td class="num">1,461</td><td class="num">—</td><td class="num idx">98</td></tr><tr class="r5"><td><span class="rl">5% 인상</span></td><td class="num">8,300<small>계산 8,295 · 실제 +5.1%</small></td><td class="num">2,075</td><td class="num">66,400</td><td class="num">49,130<small>정상가 대비 -74%</small></td><td class="num">1,535</td><td class="num">+2,370</td><td class="num idx">98 → <b class='in'>103</b></td></tr><tr class="r10"><td><span class="rl">10% 인상</span></td><td class="num">8,700<small>계산 8,690 · 실제 +10.1%</small></td><td class="num">2,175</td><td class="num">69,600</td><td class="num">51,500<small>정상가 대비 -74%</small></td><td class="num">1,609</td><td class="num">+4,740</td><td class="num idx">98 → <b class='in'>108</b></td></tr><tr class="r15"><td><span class="rl">15% 인상</span></td><td class="num">9,100<small>계산 9,085 · 실제 +15.2%</small></td><td class="num">2,275</td><td class="num">72,800</td><td class="num">53,860<small>정상가 대비 -74%</small></td><td class="num">1,683</td><td class="num">+7,100</td><td class="num idx">98 → <b class='in'>113</b></td></tr><tr class="base"><td rowspan="4" class="pn"><strong>초슬림 라이너</strong><small>유기농 순면 초슬림 · 70매입</small></td><td><span class="rl">현재</span></td><td class="num">8,400</td><td class="num">120</td><td class="num">67,200</td><td class="num">47,040<small>정상가 대비 -70%</small></td><td class="num">84</td><td class="num">—</td><td class="num idx">66</td></tr><tr class="r5"><td><span class="rl">5% 인상</span></td><td class="num">8,800<small>계산 8,820 · 실제 +4.8%</small></td><td class="num">126</td><td class="num">70,400</td><td class="num">49,280<small>정상가 대비 -70%</small></td><td class="num">88</td><td class="num">+2,240</td><td class="num idx">66 → <b class='in'>69</b></td></tr><tr class="r10"><td><span class="rl">10% 인상</span></td><td class="num">9,200<small>계산 9,240 · 실제 +9.5%</small></td><td class="num">131</td><td class="num">73,600</td><td class="num">51,520<small>정상가 대비 -70%</small></td><td class="num">92</td><td class="num">+4,480</td><td class="num idx">66 → <b class='in'>72</b></td></tr><tr class="r15"><td><span class="rl">15% 인상</span></td><td class="num">9,700<small>계산 9,660 · 실제 +15.5%</small></td><td class="num">139</td><td class="num">77,600</td><td class="num">54,320<small>정상가 대비 -70%</small></td><td class="num">97</td><td class="num">+7,280</td><td class="num idx">66 → <b class='in'>76</b></td></tr></tbody>
+  </table></div>
+  <p class="cap">입는오버나이트 매당가는 개당 가격. 초슬림 라이너 경쟁 지수는 소재 무관 슬림 라이너 중앙값 183원 대비. 행사가는 10원 단위 반올림. 경쟁 지수는 1-1 기준(같은 등급 경쟁 정가 중앙값 = 100, 정가 매당가 기준)으로, 원칙 범위 120을 넘으면 붉게 표시.</p>
+
+  <div class="callout">
+    <p><strong>시사점</strong></p>
+    <ul>
+      <li><strong>입는오버나이트(A):</strong> 15% 인상해도 경쟁 지수 98→113으로 원칙 범위(100~120) 안. 적극 인상 근거가 숫자로 확인됨.</li>
+      <li><strong>민트(C):</strong> 5%만 올려도 경쟁 지수 117→123으로 원칙 범위(120)를 넘음. 10%면 128, 8팩 행사가 4,480원 상승. C 분류(정가 동결) 근거.</li>
+      <li><strong>무표백(C):</strong> 15% 인상해도 경쟁 지수 89→103으로 경쟁 중앙값 수준. 데이터상 여력은 있으나 엔트리 가격 유지를 위해 C로 둔 전략적 판단임을 명시할 필요.</li>
+      <li><strong>초슬림 라이너(A):</strong> 15% 인상해도 경쟁 지수 66→76으로 여전히 경쟁 중앙값보다 크게 낮음. 매당가 120→139원으로 적극 인상 여력이 가장 큼.</li>
+      <li>소비자가 체감하는 건 번들 행사가 기준 5% 1천~2천원대, 10~15% 3천~7천원대 인상. 영업 리스크(2-2)의 고번들 체감가 상승과 연결됨.</li>
+    </ul>
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 4 인풋 -->
+<section id="s4">
+  <div class="sec-head"><span class="sec-no">4</span><h2>영업 / 재무 / 상품 검토의견</h2><span class="chip todo">검토 후 기입</span></div>
+  <div class="tbl"><table class="review">
+    <thead><tr><th>부서</th><th>검토 의견 <span class="hint">(예시)</span></th><th>후속 액션</th></tr></thead>
+    <tbody><tr><td class="ln">영업</td><td><ol class="qs"><li><span class="qp"><b>공급가만 인상 (소비자가 유지)</b>에 대한 의견: 채널별 수용 가능성, 특히 쿠팡·하이퍼·다이소</span><span class="ans ph">—</span></li><li><span class="qp"><b>정가 인상 세부안</b>에 대한 의견: 1안 라인별 차등 / 2안 일괄 10% / 3안 일부 품목 우선 중 선호안과 이유</span><span class="ans ph">—</span></li><li><span class="qp"><b>그룹 분류(A·B·C)</b> 중 이견이 있는 라인: 특히 민트 C(동결), 입는오버나이트 A(적극)</span><span class="ans ph">—</span></li><li><span class="qp"><b>인상 시점·방식</b>: 일괄 vs 분할(2회), 27년 연간계약 전 반영 여부</span><span class="ans ph">—</span></li></ol></td><td><ol class="acts"><li><span class="ph">—</span></li><li><span class="ph">—</span></li></ol></td></tr><tr><td class="ln">재무</td><td class="ph">—</td><td><ol class="acts"><li><span class="ph">—</span></li><li><span class="ph">—</span></li></ol></td></tr><tr><td class="ln">상품</td><td class="ph">—</td><td><ol class="acts"><li><span class="ph">—</span></li><li><span class="ph">—</span></li></ol></td></tr></tbody>
+  </table></div>
+</section>
+
+<hr>
+
+<!-- 5 결정 -->
+<section id="s5">
+  <div class="sec-head"><span class="sec-no">5</span><h2>최종 의사결정</h2><span class="chip decide">의사결정 항목</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>항목</th><th>결정</th></tr></thead>
+    <tbody>
+      <tr><td>채택안</td><td class="ph">—</td></tr>
+      <tr><td>인상 대상 (정가 / 공급가)</td><td class="ph">—</td></tr>
+      <tr><td>라인별 인상폭</td><td class="ph">—</td></tr>
+      <tr><td>적용 시점</td><td class="ph">—</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<hr>
+
+<!-- 6 원칙 -->
+<section id="s6">
+  <div class="sec-head"><span class="sec-no">6</span><h2>향후를 위한 가격 원칙</h2><span class="chip todo">작성 예정</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>원칙</th><th>기준 (구체화 필요)</th></tr></thead>
+    <tbody>
+      <tr><td>라인별 위계</td><td>라인 간 가격 간격을 몇 % 이상 유지할지</td></tr>
+      <tr><td>경쟁 대비 매당가 100–120</td><td>비교 대상(등급 내 경쟁 중앙값 등)과 매당가 기준 명확화</td></tr>
+      <tr><td>다이소 SKU 정리</td><td>유기농 아닌 순면 스펙 전환 등, 다이소 제품에 대한 일관된 기준</td></tr>
+      <tr><td>신제품 진입</td><td>출시 시 위 원칙에 맞춘 진입 가격 설정. 출시 후 1년간 가격 동결, 이후 반기 정기 검토에서 재평가</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout"><p><strong>정기 검토:</strong> 가격검토 회의 반기 1회, 연 2회.</p></div>
+</section>
+
+<footer>데이터: 라엘_가격포지션_유기농순면.xlsx (요약 · 생리대 라인 비교 · 경쟁 라인 · 라엘 포지션 시트) · 2026 제품별·채널별 매출/수량 · 제조사별 원가 인상 통보</footer>
+</div>
+
+</body></html>
